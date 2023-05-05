@@ -1,0 +1,10 @@
+package Day1;
+
+public class Typecastingint2str {
+    public static void main(String[] args) {
+        int x = 1902;
+        String str = Integer.toString(x);
+        System.out.println("The Integer value is " + str);
+        System.out.println("The String value is " + str);
+    }
+}

@@ -1,0 +1,18 @@
+package Day1;
+
+public class Concatenate {
+    public static void main(String[] args) {
+//        concatenate the strings
+        String str = "Harini"+"Ravi";
+        
+//        concatenate for integers
+        int a = 10 +14;
+        String s = "Maha";
+//        another way of concatenate
+        String b = str.concat(s);
+
+        System.out.println(str);
+        System.out.println(b);
+        System.out.println(a);
+    }
+}

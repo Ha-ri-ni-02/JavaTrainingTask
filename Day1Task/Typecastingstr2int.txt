@@ -1,0 +1,12 @@
+package Day1;
+
+public class Typecastingstr2int {
+    public static void main(String[] args) {
+        String str = "123";
+        int c = 70;
+        int a = Integer.parseInt(str);
+        System.out.println( a + c);
+        System.out.println("The int represents " + a + c);
+        System.out.println("The String represents " + (a + c));
+    }
+}
